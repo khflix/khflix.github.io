@@ -1,0 +1,10 @@
+<?php
+if(!file_exists('./includes/config.php')){
+	header('location:install.php');
+	die();
+}
+if(!file_exists('./includes/config-web-info.php')){
+	header('location:install.php');
+	die();
+}
+?>

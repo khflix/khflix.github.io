@@ -1,0 +1,54 @@
+{
+    "player": {
+        "aboutlink": "\/",
+        "abouttext": "Powered by dstreampro",
+        "advertising": {
+            "admessage": "The ad will end in xx seconds",
+            "adTag": "https:\/\/",
+            "client": "vast",
+            "offset": [
+                "1350",
+                "4050",
+                "50%",
+                "post",
+                "pre"
+            ]
+        },
+        "allowFullscreen": true,
+        "autostart": false,
+        "captions": {
+            "backgroundOpacity": 0,
+            "color": "#FFFF00",
+            "edgeStyle": "uniform",
+            "fontSize": 15
+        },
+        "fuckadblock": false,
+        "height": "100%",
+        "logo": {
+            "file": "#"
+        },
+        "mute": false,
+        "playbackRateControls": true,
+        "playerDownload": "true",
+        "preload": "metadata",
+        "loop": true,
+        "showAD": true,
+        "tracks": {
+            "kind": "captions"
+        },
+        "width": "100%"
+    },
+    "workers": [
+        "https:\/\/streampro.fihag47015.workers.dev",
+        "https:\/\/streampro2.fihag47015.workers.dev",
+        "https:\/\/helloworldstreampro.fihag47015.workers.dev",
+        "https:\/\/streampro5.vosodi3559.workers.dev",
+        "https:\/\/streampro.tiher56899.workers.dev",
+        "https:\/\/streampro.jicevey694.workers.dev",
+        "https:\/\/streampro.memap66651.workers.dev",
+        "https:\/\/streampro.biholat161.workers.dev",
+        "https:\/\/dstream.moxol15644.workers.dev",
+        "https://khflix.phanathflix.workers.dev",
+        "https:\/\/dstreampro.xeyirar456.workers.dev"
+    ]
+}

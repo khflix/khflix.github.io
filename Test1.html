@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>XMLHttpRequest example</title>
+    </head>
+    <body>
+        <script>
+const sendRequest = (method, url) => {
+
+	const promise = new Promise((resolve, reject) => {
+
+	const xhr = new XMLHttpRequest();
+
+	xhr.open(method, url);
+
+
+	xhr.responseType = 'json';
+
+
+	xhr.onload = () => {
+
+		if (xhr.status >= 400) {
+
+			reject(xhr.response);
+
+		}
+
+		resolve(xhr.response);
+
+	};
+
+
+		xhr.send();
+
+	});
+
+	return promise;
+
+};
+
+
+const getData = async () => {
+
+	try {
+
+//		const res = await sendRequest('GET', 'https://api.delivrjs.workers.dev/api/doodstream/vcj87w19b4mr');
+
+//		const res = await sendRequest('GET', 'https://helloworldstreampro.fihag47015.workers.dev/api/googlephoto/q8mhdMjhQnugNAQx6');
+
+		const res = await sendRequest('GET', 'https://streampro.fihag47015.workers.dev/api/doodstream/cge70oodtriy');
+
+//		const res = await sendRequest('GET', 'https://helloworldstreampro.fihag47015.workers.dev/api/doodstream/cge70oodtriy');
+
+
+// alert(res['status']); 
+document.write("status : " + res['status'] + "<br><br/>");
+
+// alert(res['id']);
+document.write("id : " + res['id'] + "<br><br/>");
+
+// alert(res['host']);
+document.write("host : " + res['host'] + "<br><br/>");
+
+var json_obj = res;
+//alert(json_obj.results.books.book[1]["-title"]);
+
+// alert(json_obj.sources[0]["file"]);
+document.write("file : " + json_obj.sources[0]["file"] + "<br><br/>");
+
+document.write("<video src='" + json_obj.sources[0]["file"] + "' controls></video><br><br/>");
+
+// alert(json_obj.sources[0]["type"]);
+document.write("type : " + json_obj.sources[0]["type"] + "<br><br/>");
+
+// alert(json_obj.sources[0]["label"]);
+document.write("label : " + json_obj.sources[0]["label"] + "<br><br/>");
+
+// alert(res['download']);
+document.write("download : " + res['download'] + "<br><br/>");
+
+// alert(res['image']);
+document.write("image : " + res['image'] + "<br><br/>");
+
+// alert(res['vtt']);
+document.write("vtt : " + res['vtt'] + "<br><br/>");
+
+// alert(res['filecode']);
+document.write("filecode : " + res['filecode'] + "<br><br/>");
+
+// alert(res['msg']);
+document.write("msg : " + res['msg'] + "<br><br/>");
+
+// alert(JSON.stringify(json_obj));
+document.write("json : " + JSON.stringify(json_obj) + "<br><br/>");
+
+	} catch (err) {             
+
+		alert(err);
+
+	}
+
+};
+
+
+getData();
+        </script>
+    </body>
+</html>

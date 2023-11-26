@@ -1,0 +1,144 @@
+[30-Jun-2023 11:13:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/dstreampro/public_html/play.php:105
+Stack trace:
+#0 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 105
+[30-Jun-2023 11:15:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/dstreampro/public_html/play.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 104
+[30-Jun-2023 11:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/dstreampro/public_html/play.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 104
+[30-Jun-2023 11:21:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/dstreampro/public_html/play.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 104
+[30-Jun-2023 11:21:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/dstreampro/public_html/play.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 104
+[30-Jun-2023 11:53:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/dstreampro/public_html/play.php:103
+Stack trace:
+#0 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 103
+[30-Jun-2023 11:56:49 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/dstreampro/public_html/play.php on line 103
+[30-Jun-2023 11:56:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/dstreampro/public_html/play.php:105
+Stack trace:
+#0 /home/dstreampro/public_html/play.php(112): mysql_field_array(NULL)
+#1 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 105
+[30-Jun-2023 11:59:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/dstreampro/public_html/play.php:104
+Stack trace:
+#0 /home/dstreampro/public_html/play.php(111): mysql_field_array(Object(mysqli_result))
+#1 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 104
+[30-Jun-2023 12:20:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/dstreampro/public_html/play.php:104
+Stack trace:
+#0 /home/dstreampro/public_html/play.php(111): mysql_field_array(Object(mysqli_result))
+#1 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 104
+[30-Jun-2023 12:26:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/dstreampro/public_html/play.php:106
+Stack trace:
+#0 /home/dstreampro/public_html/play.php(115): get_col_names()
+#1 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 106
+[30-Jun-2023 13:00:30 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/dstreampro/public_html/play.php on line 116
+[30-Jun-2023 13:36:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home/dstreampro/public_html/play.php:108
+Stack trace:
+#0 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 108
+[30-Jun-2023 13:38:34 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[30-Jun-2023 13:38:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/dstreampro/public_html/play.php on line 115
+[30-Jun-2023 13:39:05 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[30-Jun-2023 13:39:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/dstreampro/public_html/play.php on line 115
+[30-Jun-2023 13:39:09 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[30-Jun-2023 13:39:09 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/dstreampro/public_html/play.php on line 115
+[30-Jun-2023 13:40:43 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[30-Jun-2023 13:40:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[30-Jun-2023 13:57:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/dstreampro/public_html/play.php on line 112
+[30-Jun-2023 17:48:34 UTC] PHP Fatal error:  Cannot use [] for reading in /home/dstreampro/public_html/play.php on line 145
+[30-Jun-2023 17:56:24 UTC] PHP Warning:  Illegal string offset 'domain' in /home/dstreampro/public_html/play.php on line 147
+[30-Jun-2023 17:57:13 UTC] PHP Warning:  Illegal string offset 'domain' in /home/dstreampro/public_html/play.php on line 147
+[30-Jun-2023 17:57:32 UTC] PHP Warning:  Illegal string offset 'domain' in /home/dstreampro/public_html/play.php on line 147
+[30-Jun-2023 17:59:04 UTC] PHP Warning:  Illegal string offset 'domain' in /home/dstreampro/public_html/play.php on line 147
+[30-Jun-2023 18:00:08 UTC] PHP Warning:  Illegal string offset 'domain' in /home/dstreampro/public_html/play.php on line 147
+[01-Jul-2023 07:36:01 UTC] PHP Parse error:  syntax error, unexpected ']', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dstreampro/public_html/play.php on line 134
+[01-Jul-2023 07:46:18 UTC] PHP Warning:  include(/HTMLhider.class.php): failed to open stream: No such file or directory in /home/dstreampro/public_html/play.php on line 2
+[01-Jul-2023 07:46:18 UTC] PHP Warning:  include(): Failed opening '/HTMLhider.class.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dstreampro/public_html/play.php on line 2
+[01-Jul-2023 07:46:18 UTC] PHP Fatal error:  Uncaught Error: Class 'HTMLhider\hider' not found in /home/dstreampro/public_html/play.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/dstreampro/public_html/play.php on line 3
+[01-Jul-2023 12:25:55 UTC] PHP Warning:  include_once(./includes/config.php): failed to open stream: No such file or directory in /home/dstreampro/public_html/play.php on line 3
+[01-Jul-2023 12:25:55 UTC] PHP Warning:  include_once(): Failed opening './includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dstreampro/public_html/play.php on line 3
+[01-Jul-2023 12:25:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 11
+[01-Jul-2023 12:25:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 12
+[01-Jul-2023 12:25:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 33
+[01-Jul-2023 12:25:55 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 34
+[01-Jul-2023 12:25:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 98
+[01-Jul-2023 12:25:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 103
+[01-Jul-2023 13:29:22 UTC] PHP Warning:  include_once(./includes/config.php): failed to open stream: No such file or directory in /home/dstreampro/public_html/play.php on line 3
+[01-Jul-2023 13:29:22 UTC] PHP Warning:  include_once(): Failed opening './includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dstreampro/public_html/play.php on line 3
+[01-Jul-2023 13:29:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 11
+[01-Jul-2023 13:29:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 12
+[01-Jul-2023 13:29:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 33
+[01-Jul-2023 13:29:22 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 34
+[01-Jul-2023 13:29:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 98
+[01-Jul-2023 13:29:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 103
+[09-Jul-2023 11:50:07 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'views' cannot be null in /home/dstreampro/public_html/player.php:51
+Stack trace:
+#0 /home/dstreampro/public_html/player.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/dstreampro/public_html/player.php on line 51
+[09-Jul-2023 11:50:50 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'views' cannot be null in /home/dstreampro/public_html/player.php:51
+Stack trace:
+#0 /home/dstreampro/public_html/player.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/dstreampro/public_html/player.php on line 51
+[09-Jul-2023 12:13:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'views' cannot be null in /home/dstreampro/public_html/player.php:51
+Stack trace:
+#0 /home/dstreampro/public_html/player.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/dstreampro/public_html/player.php on line 51
+[10-Jul-2023 16:02:43 UTC] PHP Parse error:  syntax error, unexpected '$download2' (T_VARIABLE) in /home/dstreampro/public_html/player.php on line 331
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  include_once(./includes/config.php): failed to open stream: No such file or directory in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  include_once(): Failed opening './includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 11
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 12
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 38
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 39
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 103
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  include_once(./includes/config.php): failed to open stream: No such file or directory in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  include_once(): Failed opening './includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 11
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 12
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 38
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 39
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 103
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  include_once(./includes/config.php): failed to open stream: No such file or directory in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  include_once(): Failed opening './includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 11
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 12
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 38
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 39
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 103
+[11-Jul-2023 16:06:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[11-Jul-2023 16:07:02 UTC] PHP Warning:  include_once(./includes/config.php): failed to open stream: No such file or directory in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:07:02 UTC] PHP Warning:  include_once(): Failed opening './includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:07:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 11
+[11-Jul-2023 16:07:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 12
+[11-Jul-2023 16:07:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 38
+[11-Jul-2023 16:07:02 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 39
+[11-Jul-2023 16:07:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 103
+[11-Jul-2023 16:07:02 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
+[11-Jul-2023 16:08:44 UTC] PHP Warning:  include_once(./includes/config.php): failed to open stream: No such file or directory in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:08:44 UTC] PHP Warning:  include_once(): Failed opening './includes/config.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/dstreampro/public_html/play.php on line 3
+[11-Jul-2023 16:08:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 11
+[11-Jul-2023 16:08:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 12
+[11-Jul-2023 16:08:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 38
+[11-Jul-2023 16:08:44 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 39
+[11-Jul-2023 16:08:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/dstreampro/public_html/play.php on line 103
+[11-Jul-2023 16:08:44 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/dstreampro/public_html/play.php on line 108
